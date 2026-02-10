@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#70A9D1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shape -->
+  <path d="M40 100 Q40 40 100 40 Q160 40 160 100 Q160 160 100 160 Q40 160 40 100" fill="url(#blueGrad)" opacity="0.1" />
+  
+  <!-- Brush Stroke (Blue) -->
+  <path d="M30 110 C 30 70, 70 30, 130 50 S 170 130, 130 150 S 30 150, 30 110" fill="none" stroke="#70A9D1" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+  
+  <!-- Brush Stroke (Red) -->
+  <path d="M140 140 C 160 130, 180 110, 175 80" fill="none" stroke="#D9252F" stroke-width="12" stroke-linecap="round" />
+  
+  <!-- KB Text (Stylized) -->
+  <text x="100" y="115" font-family="'Outfit', sans-serif" font-weight="700" font-size="60" fill="#1E3A8A" text-anchor="middle">KB</text>
+  
+  <!-- Company Name -->
+  <text x="100" y="180" font-family="'Inter', sans-serif" font-weight="700" font-size="14" fill="#334155" text-anchor="middle" letter-spacing="4">BEYOND CREATIVE</text>
+</svg>
