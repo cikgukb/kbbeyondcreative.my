@@ -1368,4 +1368,5 @@ ul {
   .nav-list, .nav-cta { display: none; }
   .hamburger-btn { display: flex; }
   .stats-counter-row { grid-template-columns: 1fr 1fr; }
+  .footer-bottom-row { flex-direction: column; gap: 0.8rem; text-align: center; }
 }
